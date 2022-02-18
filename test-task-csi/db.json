@@ -1,0 +1,104 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "level": "0",
+      "parent": "null",
+      "name": "Модель 1",
+      "creationDate": "2019-06-28",
+      "price": "1000",
+      "amount": "4",
+      "summa": "4000"
+    },
+    {
+      "id": "b1e6c999-1725-443d-b5e3-0775333c31a9",
+      "level": "1",
+      "parent": null,
+      "name": "Кузов",
+      "creationDate": 1645179722383,
+      "price": 168000,
+      "amount": "1",
+      "summa": 168000
+    },
+    {
+      "id": "7253201d-3e67-4e3a-90b5-578124a202f5",
+      "level": "1",
+      "parent": null,
+      "name": "Двигатель",
+      "creationDate": 1645179739883,
+      "price": 67000,
+      "amount": "1",
+      "summa": 67000
+    },
+    {
+      "id": "a15e64d1-9d5a-4cbf-9280-a006a759c312",
+      "level": 2,
+      "parent": "b1e6c999-1725-443d-b5e3-0775333c31a9",
+      "name": "Двери",
+      "creationDate": 1645179760380,
+      "price": 56000,
+      "amount": "3",
+      "summa": 168000
+    },
+    {
+      "id": "5a9975ac-a61d-4f19-92e8-2f6476de2148",
+      "level": 3,
+      "parent": "a15e64d1-9d5a-4cbf-9280-a006a759c312",
+      "name": "Замок",
+      "creationDate": 1645179786239,
+      "price": "5000",
+      "amount": "4",
+      "summa": 20000
+    },
+    {
+      "id": "61ca07e3-e4dc-444e-9fb4-b620ffd3d2a3",
+      "level": "3",
+      "parent": "a15e64d1-9d5a-4cbf-9280-a006a759c312",
+      "name": "Ручки",
+      "creationDate": 1645179800195,
+      "price": "6000",
+      "amount": "6",
+      "summa": 36000
+    },
+    {
+      "id": "47c43d64-feab-4364-bc75-13485fb5914a",
+      "level": 2,
+      "parent": "7253201d-3e67-4e3a-90b5-578124a202f5",
+      "name": "Поршни",
+      "creationDate": 1645179835428,
+      "price": "10000",
+      "amount": "5",
+      "summa": 50000
+    },
+    {
+      "id": "1876f246-c390-4946-a090-0122bcc294a2",
+      "level": 2,
+      "parent": "7253201d-3e67-4e3a-90b5-578124a202f5",
+      "name": "Клапан",
+      "creationDate": 1645179873783,
+      "price": "1000",
+      "amount": "8",
+      "summa": 8000
+    },
+    {
+      "id": "6d82050d-d795-42c3-af29-aa972b9cbbf4",
+      "level": 2,
+      "parent": "7253201d-3e67-4e3a-90b5-578124a202f5",
+      "name": "Коленвал",
+      "creationDate": 1645179887839,
+      "price": "5000",
+      "amount": "1",
+      "summa": 5000
+    },
+    {
+      "id": "410e130c-3559-4d5f-92ee-218cc79484f5",
+      "level": 2,
+      "parent": "7253201d-3e67-4e3a-90b5-578124a202f5",
+      "name": "Распредвал",
+      "creationDate": 1645179905212,
+      "price": "2000",
+      "amount": "2",
+      "summa": 4000
+    }
+  ]
+}

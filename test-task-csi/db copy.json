@@ -1,0 +1,86 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "level": "0",
+      "parent": "null",
+      "name": "Модель 1",
+      "creationDate": "2019-06-28",
+      "price": "1000",
+      "amount": "4",
+      "summa": "4000"
+    },
+    {
+      "id": "2",
+      "level": "1",
+      "parent": "1",
+      "name": "Кузов",
+      "creationDate": "2019-06-27",
+      "price": "1000",
+      "amount": "4",
+      "summa": "4000"
+    },
+    {
+      "id": "3",
+      "level": "1",
+      "parent": "1",
+      "name": "Двигатель",
+      "creationDate": "2019-06-26",
+      "price": "1000",
+      "amount": "4",
+      "summa": "4000"
+    },
+    {
+      "id": "4",
+      "level": "2",
+      "parent": "2",
+      "name": "Дверь",
+      "creationDate": "2019-06-25",
+      "price": "1000",
+      "amount": "4",
+      "summa": "4000"
+    },
+    {
+      "id": "5",
+      "level": "3",
+      "parent": "4",
+      "name": "Ручки",
+      "creationDate": "2019-06-24",
+      "price": "1000",
+      "amount": "4",
+      "summa": "4000"
+    },
+    {
+      "id": "7",
+      "level": "2",
+      "parent": "3",
+      "name": "Поршни",
+      "creationDate": "2019-06-22",
+      "price": "1000",
+      "amount": "4",
+      "summa": "4000"
+    },
+    {
+      "id": "8",
+      "level": "2",
+      "parent": "3",
+      "name": "Кольца",
+      "creationDate": "2019-06-21",
+      "price": "1000",
+      "amount": "4",
+      "summa": "4000"
+    },
+    {
+      "id": "9",
+      "level": "3",
+      "parent": "7",
+      "name": "Шпильки",
+      "creationDate": "2019-06-29",
+      "price": "1000",
+      "amount": "4",
+      "summa": "4000"
+    },
+    { "id": "6", "level": "3", "parent": "4", "name": "Замок", "creationDate": "2019-06-23", "price": "1000", "amount": "4", "summa": "4000" }
+
+  ]
+}
